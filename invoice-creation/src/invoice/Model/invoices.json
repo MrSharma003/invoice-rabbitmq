@@ -1,0 +1,202 @@
+[
+  {
+    "customer": "Alice Johnson",
+    "amount": 160.0,
+    "reference": "INV-021",
+    "date": "2024-08-31T09:00:00Z",
+    "item": [
+      { "sku": "SKU123", "qt": 2 },
+      { "sku": "SKU456", "qt": 1 }
+    ]
+  },
+  {
+    "customer": "Bob Smith",
+    "amount": 220.0,
+    "reference": "INV-022",
+    "date": "2024-08-31T10:00:00Z",
+    "item": [
+      { "sku": "SKU789", "qt": 7 },
+      { "sku": "SKU123", "qt": 3 }
+    ]
+  },
+  {
+    "customer": "Charlie Brown",
+    "amount": 70.25,
+    "reference": "INV-023",
+    "date": "2024-08-31T11:00:00Z",
+    "item": [
+      { "sku": "SKU111", "qt": 5 },
+      { "sku": "SKU222", "qt": 2 }
+    ]
+  },
+  {
+    "customer": "Diane West",
+    "amount": 290.5,
+    "reference": "INV-024",
+    "date": "2024-08-31T12:00:00Z",
+    "item": [
+      { "sku": "SKU333", "qt": 3 },
+      { "sku": "SKU444", "qt": 6 }
+    ]
+  },
+  {
+    "customer": "Ethan Hunt",
+    "amount": 115.0,
+    "reference": "INV-025",
+    "date": "2024-08-31T13:00:00Z",
+    "item": [
+      { "sku": "SKU555", "qt": 4 },
+      { "sku": "SKU666", "qt": 2 }
+    ]
+  },
+  {
+    "customer": "Fiona Gallagher",
+    "amount": 240.25,
+    "reference": "INV-026",
+    "date": "2024-08-31T14:00:00Z",
+    "item": [
+      { "sku": "SKU777", "qt": 8 },
+      { "sku": "SKU888", "qt": 3 }
+    ]
+  },
+  {
+    "customer": "George Martin",
+    "amount": 100.5,
+    "reference": "INV-027",
+    "date": "2024-08-31T15:00:00Z",
+    "item": [
+      { "sku": "SKU999", "qt": 2 },
+      { "sku": "SKU000", "qt": 4 }
+    ]
+  },
+  {
+    "customer": "Helen White",
+    "amount": 185.75,
+    "reference": "INV-028",
+    "date": "2024-08-31T16:00:00Z",
+    "item": [
+      { "sku": "SKU111", "qt": 3 },
+      { "sku": "SKU222", "qt": 5 }
+    ]
+  },
+  {
+    "customer": "Ian Black",
+    "amount": 95.0,
+    "reference": "INV-029",
+    "date": "2024-08-31T17:00:00Z",
+    "item": [
+      { "sku": "SKU456", "qt": 3 },
+      { "sku": "SKU789", "qt": 2 }
+    ]
+  },
+  {
+    "customer": "Jackie Chan",
+    "amount": 345.0,
+    "reference": "INV-030",
+    "date": "2024-08-31T18:00:00Z",
+    "item": [
+      { "sku": "SKU123", "qt": 10 },
+      { "sku": "SKU456", "qt": 7 }
+    ]
+  },
+  {
+    "customer": "Alice Johnson",
+    "amount": 170.0,
+    "reference": "INV-031",
+    "date": "2024-09-01T09:00:00Z",
+    "item": [
+      { "sku": "SKU123", "qt": 2 },
+      { "sku": "SKU456", "qt": 1 }
+    ]
+  },
+  {
+    "customer": "Bob Smith",
+    "amount": 230.0,
+    "reference": "INV-032",
+    "date": "2024-09-01T10:00:00Z",
+    "item": [
+      { "sku": "SKU789", "qt": 7 },
+      { "sku": "SKU123", "qt": 3 }
+    ]
+  },
+  {
+    "customer": "Charlie Brown",
+    "amount": 75.25,
+    "reference": "INV-033",
+    "date": "2024-09-01T11:00:00Z",
+    "item": [
+      { "sku": "SKU111", "qt": 5 },
+      { "sku": "SKU222", "qt": 2 }
+    ]
+  },
+  {
+    "customer": "Diane West",
+    "amount": 300.5,
+    "reference": "INV-034",
+    "date": "2024-09-01T12:00:00Z",
+    "item": [
+      { "sku": "SKU333", "qt": 3 },
+      { "sku": "SKU444", "qt": 6 }
+    ]
+  },
+  {
+    "customer": "Ethan Hunt",
+    "amount": 120.0,
+    "reference": "INV-035",
+    "date": "2024-09-01T13:00:00Z",
+    "item": [
+      { "sku": "SKU555", "qt": 4 },
+      { "sku": "SKU666", "qt": 2 }
+    ]
+  },
+  {
+    "customer": "Fiona Gallagher",
+    "amount": 250.25,
+    "reference": "INV-036",
+    "date": "2024-09-01T14:00:00Z",
+    "item": [
+      { "sku": "SKU777", "qt": 8 },
+      { "sku": "SKU888", "qt": 3 }
+    ]
+  },
+  {
+    "customer": "George Martin",
+    "amount": 110.5,
+    "reference": "INV-037",
+    "date": "2024-09-01T15:00:00Z",
+    "item": [
+      { "sku": "SKU999", "qt": 2 },
+      { "sku": "SKU000", "qt": 4 }
+    ]
+  },
+  {
+    "customer": "Helen White",
+    "amount": 190.75,
+    "reference": "INV-038",
+    "date": "2024-09-01T16:00:00Z",
+    "item": [
+      { "sku": "SKU111", "qt": 3 },
+      { "sku": "SKU222", "qt": 5 }
+    ]
+  },
+  {
+    "customer": "Ian Black",
+    "amount": 105.0,
+    "reference": "INV-039",
+    "date": "2024-09-01T17:00:00Z",
+    "item": [
+      { "sku": "SKU456", "qt": 3 },
+      { "sku": "SKU789", "qt": 2 }
+    ]
+  },
+  {
+    "customer": "Jackie Chan",
+    "amount": 350.0,
+    "reference": "INV-040",
+    "date": "2024-09-01T18:00:00Z",
+    "item": [
+      { "sku": "SKU123", "qt": 10 },
+      { "sku": "SKU456", "qt": 7 }
+    ]
+  }
+]

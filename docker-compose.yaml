@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  invoice-creation-app:
+    build:
+      context: ./invoice-creation
+    ports:
+      - "3000:3000"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    environment:
+      - NODE_ENV=production
+      - RABBITMQ_URL=amqp://myuser:mypassword@rabbitmq:5672
+    restart: always
+
+  email-service:
+    build:
+      context: ./email-service
+    depends_on:
+      - rabbitmq
+    environment:
+      - NODE_ENV=production
+      - RABBITMQ_URL=amqp://myuser:mypassword@rabbitmq:5672
+    restart: always
+
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: myuser
+      RABBITMQ_DEFAULT_PASS: mypassword
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: always
